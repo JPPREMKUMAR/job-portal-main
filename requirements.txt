@@ -1,0 +1,29 @@
+npm create vite@latest
+select react js
+select js
+npm install -D tailwindcss postcss autoprefixer
+npm tailwindcss init -p
+npm install react-router-dom
+npm install react-toastify
+npm install quill
+
+npm install @clerk/clerk-react
+npm install k-convert
+npm install moment
+
+
+
+
+BackEnd Server
+sentry ->
+npm install @sentry/node @sentry/profiling-node --save
+
+
+git config --global user.name "Premkumarjp012"
+git config --global user.email "22kf5a0502@sseptp.org"
+git init
+git add .
+git commit -m "first Commit"
+git remote add origin https://github.com/Premkumarjp012/job-portal.git
+git branch -M main
+git push -u origin main
